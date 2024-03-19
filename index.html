@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <img src="img/contact-form-icon.svg"/>
+        <h3>Interested in our<br> business pricing?</h3>
+        <p class="text-body">Fill out the form to view details and we’ll <br> contact you as soon as possible.</p>
+    </section>
+    <form method="post" class="form-container">
+        <p class="form-name">
+            <label for="name1" id="names">Name</label>
+            <br> 
+            <input type="text" id="name1" placeholder="Ethan Johnson">
+        </p>
+        <br>
+        <p class="form-email">
+            <label for="companyemail" id="email">Company Email</label>
+            <br>
+            <input type="email" id="companyemail" placeholder="ethan@johnson.com">
+        </p>
+        <br>
+        <p class="form-size">
+            <label for="company1" id="companysize">Company Size</label>
+            <br>
+            <select  name="companysize" id="company1">
+                <option value="50-100" >50-100 Employees</option>
+                <option value="100-150" >100-150 Employees</option>
+                <option value="150-200" >150-200 Employees</option>
+            </select>
+        </p>
+        <br>
+        <p class="form-services"> 
+            <label for="services1" id="services">Subject</label>
+            <br>
+            <select  name="services1" id="services1">
+                <option value="service1">Building Landing pages</option>
+                <option value="service2">Building website</option>
+                <option value="service3">Building software</option>
+            </select>
+        </p>
+        <br>
+        <p class="message-area">
+            <label for="message" id="message">Message</label>
+            <br>
+            <textarea id="message" name="message" placeholder="50-100 Employees">Messages</textarea>
+        </p>
+        <br>
+        <p class="button">
+            <button type="submit">Contact Sales</button>
+        </p>>
+    </form>
+    
+</body>
+</html>
